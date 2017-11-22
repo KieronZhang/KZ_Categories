@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'KZ_Categories/KZ_CategoriesFramework.framework'
     s.requires_arc = true
 
+    s.dependency 'KZ_JSON'
+
 end
