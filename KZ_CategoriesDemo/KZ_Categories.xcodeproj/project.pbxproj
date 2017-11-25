@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0617BE355DD894A8C33DF8A6 /* Pods_KZ_Categories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225AE2484987062351973B88 /* Pods_KZ_Categories.framework */; };
-		AE9A25EE1FC5E51200668BA7 /* KZ_CategoriesFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25ED1FC5E51200668BA7 /* KZ_CategoriesFramework.framework */; };
 		AEF1741C1E0E8E08003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1741B1E0E8E08003D041A /* main.m */; };
 		AEF1741F1E0E8E08003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1741E1E0E8E08003D041A /* AppDelegate.m */; };
 		AEF174221E0E8E08003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF174211E0E8E08003D041A /* ViewController.m */; };
 		AEF174251E0E8E08003D041A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF174231E0E8E08003D041A /* Main.storyboard */; };
 		AEF174271E0E8E09003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF174261E0E8E08003D041A /* Assets.xcassets */; };
 		AEF1742A1E0E8E09003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF174281E0E8E09003D041A /* LaunchScreen.storyboard */; };
+		AEFD48291FC7DF1A00B43577 /* KZ_CategoriesFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFD48281FC7DF1A00B43577 /* KZ_CategoriesFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +36,6 @@
 		2494B9648E31A6A429EA2D32 /* Pods-KZ_CategoriesFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_CategoriesFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_CategoriesFramework/Pods-KZ_CategoriesFramework.release.xcconfig"; sourceTree = "<group>"; };
 		287F90C74992E5AEF922997C /* Pods-KZ_Categories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories/Pods-KZ_Categories.debug.xcconfig"; sourceTree = "<group>"; };
 		6E32B5BB5CA6E09553ECE716 /* Pods_KZ_CategoriesFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_CategoriesFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE9A25ED1FC5E51200668BA7 /* KZ_CategoriesFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_CategoriesFramework.framework; sourceTree = "<group>"; };
 		AEF174171E0E8E08003D041A /* KZ_Categories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Categories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF1741B1E0E8E08003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF1741D1E0E8E08003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		AEF174261E0E8E08003D041A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEF174291E0E8E09003D041A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEF1742B1E0E8E09003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFD48281FC7DF1A00B43577 /* KZ_CategoriesFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_CategoriesFramework.framework; sourceTree = "<group>"; };
 		C591BBA5F328DD464F8F8034 /* Pods-KZ_Categories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories/Pods-KZ_Categories.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A25EE1FC5E51200668BA7 /* KZ_CategoriesFramework.framework in Frameworks */,
+				AEFD48291FC7DF1A00B43577 /* KZ_CategoriesFramework.framework in Frameworks */,
 				0617BE355DD894A8C33DF8A6 /* Pods_KZ_Categories.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,7 +118,7 @@
 		AEFD458F1FC5792600B43577 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A25ED1FC5E51200668BA7 /* KZ_CategoriesFramework.framework */,
+				AEFD48281FC7DF1A00B43577 /* KZ_CategoriesFramework.framework */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
