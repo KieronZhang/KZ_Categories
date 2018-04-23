@@ -1,0 +1,6 @@
+framework module Pods_KZ_Categories_macOS {
+  umbrella header "Pods-KZ_Categories_macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
