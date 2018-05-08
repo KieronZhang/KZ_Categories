@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43F05B3EA00EE6BEDA016983 /* Pods_KZ_Categories_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13CF9F0FEA02A6896094873 /* Pods_KZ_Categories_iOS.framework */; };
+		6C23932FF7F61995C1A70552 /* Pods_KZ_Categories_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C6E35E4F4B9BE78B2A7BC9 /* Pods_KZ_Categories_macOS.framework */; };
+		AC2155BB49915BF3BB0A3C7E /* Pods_KZ_Categories_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7756D31F4160C277E8305720 /* Pods_KZ_Categories_iOS.framework */; };
 		AEC29282208DF76B00198A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29281208DF76B00198A0E /* AppDelegate.m */; };
 		AEC29285208DF76B00198A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC29284208DF76B00198A0E /* ViewController.m */; };
 		AEC29288208DF76B00198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC29286208DF76B00198A0E /* Main.storyboard */; };
@@ -19,18 +20,12 @@
 		AEC292A1208DF77900198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC292A0208DF77900198A0E /* Assets.xcassets */; };
 		AEC292A4208DF77900198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC292A2208DF77900198A0E /* Main.storyboard */; };
 		AEC292A7208DF77900198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC292A6208DF77900198A0E /* main.m */; };
-		AEC292AE208DF87E00198A0E /* KZ_Categories_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC292AD208DF87E00198A0E /* KZ_Categories_iOS.framework */; };
-		AEC292B1208DF88D00198A0E /* KZ_Categories_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC292B0208DF88D00198A0E /* KZ_Categories_macOS.framework */; };
-		D25C904666ED1DC8A0C7E5B2 /* Pods_KZ_Categories_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67ED3CCB3D110143513B46E7 /* Pods_KZ_Categories_macOS.framework */; };
+		AEC62F6B20A179F300DFC8B9 /* KZ_Categories_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62F6A20A179F300DFC8B9 /* KZ_Categories_iOS.framework */; };
+		AEC62F6D20A179F800DFC8B9 /* KZ_Categories_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62F6C20A179F800DFC8B9 /* KZ_Categories_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1914F7B860BEB630B5A85C76 /* Pods-KZ_CategoriesFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_CategoriesFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_CategoriesFramework/Pods-KZ_CategoriesFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		225AE2484987062351973B88 /* Pods_KZ_Categories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Categories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2494B9648E31A6A429EA2D32 /* Pods-KZ_CategoriesFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_CategoriesFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_CategoriesFramework/Pods-KZ_CategoriesFramework.release.xcconfig"; sourceTree = "<group>"; };
-		67ED3CCB3D110143513B46E7 /* Pods_KZ_Categories_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Categories_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E32B5BB5CA6E09553ECE716 /* Pods_KZ_CategoriesFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_CategoriesFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A13CF9F0FEA02A6896094873 /* Pods_KZ_Categories_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Categories_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7756D31F4160C277E8305720 /* Pods_KZ_Categories_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Categories_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC2927E208DF76B00198A0E /* KZ_Categories_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_Categories_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC29280208DF76B00198A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC29281208DF76B00198A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,11 +46,12 @@
 		AEC292A5208DF77900198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC292A6208DF77900198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEC292A8208DF77900198A0E /* KZ_Categories_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_Categories_macOS.entitlements; sourceTree = "<group>"; };
-		AEC292AD208DF87E00198A0E /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_iOS.framework; sourceTree = "<group>"; };
-		AEC292B0208DF88D00198A0E /* KZ_Categories_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_macOS.framework; sourceTree = "<group>"; };
+		AEC62F6A20A179F300DFC8B9 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		AEC62F6C20A179F800DFC8B9 /* KZ_Categories_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_macOS.framework; sourceTree = "<group>"; };
 		B1851AEFAC15E29CD2427A0D /* Pods-KZ_Categories_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_macOS/Pods-KZ_Categories_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C3A5EFD22FCE622FA2499A12 /* Pods-KZ_Categories_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_iOS/Pods-KZ_Categories_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C86D926ED3BE59FA6AC2BC17 /* Pods-KZ_Categories_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_macOS/Pods-KZ_Categories_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		C8C6E35E4F4B9BE78B2A7BC9 /* Pods_KZ_Categories_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_Categories_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF199FDAA2D1F656E494E379 /* Pods-KZ_Categories_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_iOS/Pods-KZ_Categories_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,8 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F05B3EA00EE6BEDA016983 /* Pods_KZ_Categories_iOS.framework in Frameworks */,
-				AEC292AE208DF87E00198A0E /* KZ_Categories_iOS.framework in Frameworks */,
+				AC2155BB49915BF3BB0A3C7E /* Pods_KZ_Categories_iOS.framework in Frameworks */,
+				AEC62F6B20A179F300DFC8B9 /* KZ_Categories_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,25 +69,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D25C904666ED1DC8A0C7E5B2 /* Pods_KZ_Categories_macOS.framework in Frameworks */,
-				AEC292B1208DF88D00198A0E /* KZ_Categories_macOS.framework in Frameworks */,
+				6C23932FF7F61995C1A70552 /* Pods_KZ_Categories_macOS.framework in Frameworks */,
+				AEC62F6D20A179F800DFC8B9 /* KZ_Categories_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		68A2BE1152BBD8516ECC92F9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				225AE2484987062351973B88 /* Pods_KZ_Categories.framework */,
-				6E32B5BB5CA6E09553ECE716 /* Pods_KZ_CategoriesFramework.framework */,
-				A13CF9F0FEA02A6896094873 /* Pods_KZ_Categories_iOS.framework */,
-				67ED3CCB3D110143513B46E7 /* Pods_KZ_Categories_macOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AEC2927F208DF76B00198A0E /* KZ_Categories_iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,7 +114,7 @@
 		AEC292AC208DF87E00198A0E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AEC292AD208DF87E00198A0E /* KZ_Categories_iOS.framework */,
+				AEC62F6A20A179F300DFC8B9 /* KZ_Categories_iOS.framework */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -137,7 +122,7 @@
 		AEC292AF208DF88D00198A0E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AEC292B0208DF88D00198A0E /* KZ_Categories_macOS.framework */,
+				AEC62F6C20A179F800DFC8B9 /* KZ_Categories_macOS.framework */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -149,7 +134,7 @@
 				AEC29299208DF77800198A0E /* KZ_Categories_macOS */,
 				AEF174181E0E8E08003D041A /* Products */,
 				DF162628C5557BD7E05E05B4 /* Pods */,
-				68A2BE1152BBD8516ECC92F9 /* Frameworks */,
+				B198F3C094F8D8FB80B878E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,11 +147,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B198F3C094F8D8FB80B878E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7756D31F4160C277E8305720 /* Pods_KZ_Categories_iOS.framework */,
+				C8C6E35E4F4B9BE78B2A7BC9 /* Pods_KZ_Categories_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF162628C5557BD7E05E05B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1914F7B860BEB630B5A85C76 /* Pods-KZ_CategoriesFramework.debug.xcconfig */,
-				2494B9648E31A6A429EA2D32 /* Pods-KZ_CategoriesFramework.release.xcconfig */,
 				EF199FDAA2D1F656E494E379 /* Pods-KZ_Categories_iOS.debug.xcconfig */,
 				C3A5EFD22FCE622FA2499A12 /* Pods-KZ_Categories_iOS.release.xcconfig */,
 				B1851AEFAC15E29CD2427A0D /* Pods-KZ_Categories_macOS.debug.xcconfig */,
