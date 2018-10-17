@@ -20,8 +20,8 @@
 		AEC292A1208DF77900198A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC292A0208DF77900198A0E /* Assets.xcassets */; };
 		AEC292A4208DF77900198A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC292A2208DF77900198A0E /* Main.storyboard */; };
 		AEC292A7208DF77900198A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC292A6208DF77900198A0E /* main.m */; };
-		AEC62F6B20A179F300DFC8B9 /* KZ_Categories_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62F6A20A179F300DFC8B9 /* KZ_Categories_iOS.framework */; };
-		AEC62F6D20A179F800DFC8B9 /* KZ_Categories_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62F6C20A179F800DFC8B9 /* KZ_Categories_macOS.framework */; };
+		AEF94DD421776F400063EE69 /* KZ_Categories_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DD321776F400063EE69 /* KZ_Categories_iOS.framework */; };
+		AEF94DD621776F440063EE69 /* KZ_Categories_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DD521776F440063EE69 /* KZ_Categories_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +46,8 @@
 		AEC292A5208DF77900198A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC292A6208DF77900198A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEC292A8208DF77900198A0E /* KZ_Categories_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZ_Categories_macOS.entitlements; sourceTree = "<group>"; };
-		AEC62F6A20A179F300DFC8B9 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_iOS.framework; sourceTree = "<group>"; };
-		AEC62F6C20A179F800DFC8B9 /* KZ_Categories_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_macOS.framework; sourceTree = "<group>"; };
+		AEF94DD321776F400063EE69 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		AEF94DD521776F440063EE69 /* KZ_Categories_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_Categories_macOS.framework; sourceTree = "<group>"; };
 		B1851AEFAC15E29CD2427A0D /* Pods-KZ_Categories_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_macOS/Pods-KZ_Categories_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C3A5EFD22FCE622FA2499A12 /* Pods-KZ_Categories_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_iOS/Pods-KZ_Categories_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C86D926ED3BE59FA6AC2BC17 /* Pods-KZ_Categories_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_Categories_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_Categories_macOS/Pods-KZ_Categories_macOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC2155BB49915BF3BB0A3C7E /* Pods_KZ_Categories_iOS.framework in Frameworks */,
-				AEC62F6B20A179F300DFC8B9 /* KZ_Categories_iOS.framework in Frameworks */,
+				AEF94DD421776F400063EE69 /* KZ_Categories_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C23932FF7F61995C1A70552 /* Pods_KZ_Categories_macOS.framework in Frameworks */,
-				AEC62F6D20A179F800DFC8B9 /* KZ_Categories_macOS.framework in Frameworks */,
+				AEF94DD621776F440063EE69 /* KZ_Categories_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 		AEC292AC208DF87E00198A0E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62F6A20A179F300DFC8B9 /* KZ_Categories_iOS.framework */,
+				AEF94DD321776F400063EE69 /* KZ_Categories_iOS.framework */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 		AEC292AF208DF88D00198A0E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62F6C20A179F800DFC8B9 /* KZ_Categories_macOS.framework */,
+				AEF94DD521776F440063EE69 /* KZ_Categories_macOS.framework */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -381,7 +381,7 @@
 				INFOPLIST_FILE = KZ_Categories_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Categories-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Categories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -410,7 +410,7 @@
 				INFOPLIST_FILE = KZ_Categories_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Categories-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Categories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -440,7 +440,7 @@
 				INFOPLIST_FILE = KZ_Categories_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Categories-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Categories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -470,7 +470,7 @@
 				INFOPLIST_FILE = KZ_Categories_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-Categories-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.Categories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
