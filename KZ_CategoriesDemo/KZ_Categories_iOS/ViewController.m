@@ -10,7 +10,6 @@
 #import <KZ_Categories_iOS/NSString+KZ_AES.h>
 #import <KZ_Categories_iOS/NSString+KZ_DES.h>
 #import <KZ_Categories_iOS/UIDevice+KZ_Additions.h>
-#import <KZ_Categories_iOS/UIApplication+KZ_AppControl.h>
 
 @interface ViewController ()
 
@@ -31,12 +30,6 @@
     NSLog(@"\n%@  \n%@", desString, desString1);
     
     NSLog(@"%@", [UIDevice kz_platform]);
-    
-    [self performSelector:@selector(review) withObject:nil afterDelay:1.0f];
-}
-
-- (void)review {
-    NSLog(@"%d", UIApplication.review);
 }
 
 - (void)didReceiveMemoryWarning {
