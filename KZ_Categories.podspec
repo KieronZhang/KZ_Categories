@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_Categories'
-    s.version = '0.1.4'
+    s.version = '0.1.5'
     s.summary = 'iOS & macOS categories.'
     s.homepage = 'https://github.com/KieronZhang/KZ_Categories'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
